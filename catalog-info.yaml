@@ -4,7 +4,8 @@ metadata:
   name: backstage-demo-app
   annotations:
     github.com/project-slug: josenetoo/backstage-demo-app
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
-  owner: guests
+  owner: josenetoo
