@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: minha-app
+  description: Uma aplicação de teste no Backstage
+  annotations:
+    github.com/project-slug: josenetoo/backstage-demo-app
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: meu-time
+
